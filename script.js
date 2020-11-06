@@ -35,11 +35,11 @@ img = document.querySelector(".text3")
 text = document.querySelector(".p2")
 
 const num = getRandomInt(int.length)
-img.style.backgroundImage = `url(../../images/${num}.jpg)`;
+img.style.backgroundImage = `url(images/${num}.jpg)`;
 text.textContent = int[num].name;
 
 button.addEventListener("click", () => {
   const num = getRandomInt(int.length)
-  img.style.backgroundImage = `url(../../images/${num}.jpg)`;
+  img.style.backgroundImage = `url(images/${num}.jpg)`;
   text.textContent = int[num].name;
 })
