@@ -1,0 +1,39 @@
+.img {
+ display: block;
+  max-width: 100%; 
+  margin: auto;
+  border-radius: 3%;
+  box-shadow: 0 0px 20px rgba(221, 137, 203, 0.5);
+}
+.img777 {
+  width: 100%;
+  display: block;
+}
+
+.a777 {
+  display: block;
+  width: 40%;
+}
+.text2 {
+  border-bottom: 1px solid pink;
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+
+.text3{
+ box-shadow: 0 0px 20px pink;
+ border: 2px solid pink;
+ width: 100%;
+ padding-top: 100%;
+ background-image: url(../../images/7.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center center;
+ border-radius: 5%;
+}
+
+.a4 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+}

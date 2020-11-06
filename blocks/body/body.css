@@ -1,0 +1,20 @@
+.body {
+  background-color: black;
+}
+p {
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+
+}
+@media screen and (max-width: 900px){
+  p  {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  p  {
+    font-size: 18px;
+    line-height: 22px;
+  } 
+}
